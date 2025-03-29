@@ -65,10 +65,6 @@ Here are some sample outputs from different scenarios:
 ### Output 4
 ![Output Example 4](src/4.png) 
 
-## Future Improvements
-- Utilize **error correction** to increase the reliability of the system in noisy channels.
-- Offer support to actual **quantum hardware**, including IBM Quantum Experience.
-- Include **privacy amplification** to enhance the security of the key.
 
 ## Final Thoughts
 QuantumBB84 is an interactive demonstration of the way **quantum cryptography** can provide secure communication channels. Unlike traditional encryption, which relies on puzzles that are difficult to solve, this method derives security from the underlying principles of quantum mechanics. As technology advances, protocols like BB84 will be important to protect data against the new wave of cyber attacks.
