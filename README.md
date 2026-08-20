@@ -1,24 +1,26 @@
 # QuantumBB84
 
 ## Overview
-QuantumBB84 is a Python version of the **BB84 protocol**, one of the first quantum key distribution (QKD) processes. The BB84 protocol enables two parties—Alice and Bob—to exchange a **secure cryptographic key** using the principles of **quantum mechanics**, which makes it detectable if any eavesdropping is performed.
+QuantumBB84 is an educational Python simulation of the **BB84 protocol**, one of the earliest quantum key distribution (QKD) protocols. It models how Alice and Bob establish shared key material and how interception can introduce observable mismatches.
+
+> This project is intended for learning and simulation. It is not a production cryptographic implementation.
 
 ## Why Use Quantum Cryptography?
-Traditional encryption methods rely on computational complexity, so they could be vulnerable to powerful quantum computers in the future. Quantum cryptography, on the other hand, takes advantage of **superposition** and **quantum measurement principles** to offer security that isn't mathematically founded—it's backed by the fundamental laws of physics.
+Some widely used public-key systems rely on computational problems that sufficiently capable quantum computers could solve more efficiently. QKD explores a different approach: using **superposition** and **measurement disturbance** to reveal interference with the communication channel.
 
 ## Features
 - **Quantum key distribution (QKD)** using the BB84 protocol.
-- **Eavesdropping detection**, illustrating how quantum mechanics ensures interception prevention.
+- **Eavesdropping simulation**, illustrating how interception can alter measurement results.
 - **Noisy channel simulation** to mimic real-world imperfections.
 - **Key reconciliation** to generate a final secure key.
-- **Basic encryption and decryption** with the shared key.
+- **Toy encryption and decryption demonstration** using the shared key output.
 - **Qiskit Aer simulator** for optimized quantum circuit running.
 
 ## Installation
 Install dependencies before execution of the simulation:
 
 ```bash
-pip install qiskit qiskit-aer
+pip install -r requirements.txt
 ```
 
 ## How to Use
@@ -67,7 +69,7 @@ Here are some sample outputs from different scenarios:
 
 
 ## Final Thoughts
-QuantumBB84 is an interactive demonstration of the way **quantum cryptography** can provide secure communication channels. Unlike traditional encryption, which relies on puzzles that are difficult to solve, this method derives security from the underlying principles of quantum mechanics. As technology advances, protocols like BB84 will be important to protect data against the new wave of cyber attacks.
+QuantumBB84 is an interactive introduction to quantum key distribution concepts. It focuses on basis selection, measurement, channel noise and the observable effects of interception in a simulated environment.
 
 ---
 
